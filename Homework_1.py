@@ -1,5 +1,9 @@
 # Name:Seongwon Woo
 # SBUID: 112978020
+##################### SCORE ######################
+####### Good work Score:  9/10
+#################################################
+
 import math
 
 # Remove the ellipses (...) when writing your solutions.
@@ -38,7 +42,7 @@ def what_to_wear(celsius):
 # I used the formula to type all the variables. I grouped this into tri and 
 # prepared for when tri is - in an if-else statement to express the absolute value.
 def shoelace_triangle_area(x1, y1, x2, y2, x3, y3):    
-    tri = ((x1*y2 + x2*y3 + x3*y1) - (x1*y3 + x2*y1 + x3*y2))/2
+    tri = ((x1*y2 + x2*y3 + x3*y1) - (x1*y3 + x2*y1 + x3*y2))/2    #the value of area of triangle is wrong => -1
     abstri = abs(tri) / 2
     return abstri
 
